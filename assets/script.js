@@ -80,7 +80,7 @@ function generatePassword() {
     }
 
 
-    // Else if for 2 options 
+    // else if for 2 options 
     else if (confirmCharacter && confirmNumber) {
         userChoices = character.concat(number);
     } else if (confirmCharacter && confirmLowercase) {
@@ -96,7 +96,7 @@ function generatePassword() {
     }
 
 
-    // Else if for 1 option
+    // else if for 1 option
     else if (confirmCharacter) {
         userChoices = character;
     }
@@ -106,7 +106,7 @@ function generatePassword() {
     else if (confirmLowercase) {
         userChoices = alphabet;
     }
-    // space efor upper conversion
+    // space upper conversion  .touppercase
     else if (confirmUppercase) {
         userChoices = space.concat(alphabetUpper);
     };
